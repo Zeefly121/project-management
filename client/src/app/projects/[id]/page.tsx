@@ -9,11 +9,7 @@ import Table from "../TableView"
 import { useParams } from 'next/navigation'
 import ModalNewTask from '@/components/ModalNewTask'
 
-type Props = {
-    params: {id: string}
-}
-
-const Project = ({params}: Props) => {
+const Project = () => {
     const [activeTab, setActiveTab] = useState("Board")
     const [isModalNewTaskOpen, setIsModalNewTaskOpen] = useState(false)
 
