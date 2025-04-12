@@ -37,7 +37,7 @@ const Users = () => {
             <div className="flex h-full w-full items-center">
               <div className='size-9'>
                 <Image
-                  src={`/${cell.getValue()}`}
+                  src={`https://pm-s3-images-bucket-asdfg.s3.eu-north-1.amazonaws.com/${cell.getValue()}`}
                   alt={row.getValue("username")}
                   width={100}
                   height={50}
